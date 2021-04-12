@@ -187,7 +187,7 @@ h1 span{
 		width: 62vw;
 	}
 	#segundo h1::after{
-		transform: translateY(2vh);
+		transform: translateY(10vh);
 	}
 	.forma{
 		width: 60vw;
@@ -248,7 +248,7 @@ h1 span{
 		font-size: 4em;
 	}
 	#primero h1::after{
-		top: 6.5vh;
+		top: 2vh;
 	}
 	#elementos p{
 		width: 70vw;
