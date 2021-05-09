@@ -1,4 +1,7 @@
-
+@font-face {
+    font-family: cocon;
+    src: url(../css/Cocon-Regular-Font.otf);
+    }
 footer{
 	height: 50vh;
 	width: 90vw;

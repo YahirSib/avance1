@@ -1,4 +1,7 @@
-
+@font-face {
+    font-family: cocon;
+    src: url(../css/Cocon-Regular-Font.otf);
+    }
 #this{
     background-color: orange;
 }

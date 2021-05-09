@@ -1,3 +1,7 @@
+@font-face {
+    font-family: cocon;
+    src: url(../css/Cocon-Regular-Font.otf);
+    }
 .container-form{
 	position: relative;
 	width: 100%;
