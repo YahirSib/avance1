@@ -51,7 +51,7 @@ header .titulo{
 	color: #011C26;
 }
 
-@media screen and (max-width: 360px){
+@media screen and (max-width: 697px){
     
     .textos h1, h3{
         font-family: cocon;
@@ -70,3 +70,40 @@ header .titulo{
 
 }
 
+@media screen and (max-width: 395px){
+    
+    .textos h1, h3{
+        font-family: cocon;
+        overflow-y: hidden;
+        
+    }
+    header .titulo{
+        font-size: 3em;
+    }
+    .subtitulo{
+        font-size:2em;
+        font-weight: 10;
+    }
+
+
+
+}
+
+@media screen and (max-width: 318px){
+    
+    .textos h1, h3{
+        font-family: cocon;
+        overflow-y: hidden;
+        
+    }
+    header .titulo{
+        font-size: 2em;
+    }
+    .subtitulo{
+        font-size:1.5em;
+        font-weight: 10;
+    }
+
+
+
+}
