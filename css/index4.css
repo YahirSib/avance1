@@ -1,0 +1,48 @@
+header{
+    min-width: 100vw;
+    min-height: 100vh;
+    background-image: url("../img/playaa.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    position: relative; 
+    overflow: hidden;
+    color: white;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.textos{
+    margin: 10px;
+    padding: 10px;
+    text-align: left;
+}
+.textos h1, h3{
+    font-family: cocon;
+}
+header .titulo{
+    font-size: 7em;
+}
+.subtitulo{
+    font-size: 5em;
+    font-weight: 300;
+}
+.boton1{
+    margin-top: 2%;
+    display: inline-block;
+    color: white;
+    font-size: 1em;
+    text-align: center;
+    text-decoration: none;
+    padding: 9px 20px;
+    border: 2px solid #FFF;
+    text-transform: uppercase;
+	transition: all .3s ease-in-out;
+    border-radius: 35px;
+    font-family: sans-serif;
+}
+.boton1:hover{
+    background-color: #fff;
+	color: #011C26;
+}

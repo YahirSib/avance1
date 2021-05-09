@@ -1,0 +1,249 @@
+/*Footer*/
+footer{
+	height: 50vh;
+	width: 100vw;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-evenly;
+	background-image: url(../img/footer.PNG);
+	background-position: center;
+	background-size: 100% 100%;
+	flex-wrap: wrap;
+}
+.no{
+    text-decoration: none;
+    color: black;
+}
+div.izquierda{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-evenly;
+	width: 60%;
+}
+div.img-box{
+	width: 250px;
+	height:250px;
+}
+div.img-box img{
+	width: 100%;
+	height: 100%;
+	padding:10px;
+	border-radius:50%;
+	background-color: #ed7a00;
+}
+.surf_footer, .sv_footer{
+	color: #011C26;
+    font-family: cocon;
+	padding: 5px;
+}
+div.textos2{
+	padding-right: 20px;
+	border-right:  2px solid #011c26;
+}
+.titulo-final{
+    text-align: center;
+    font-size: 24px;
+    color: #03738C;
+    z-index: 1;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+}
+.red {
+	list-style: none;
+	display: flex;
+	flex-direction: column;
+}
+.xd{
+	text-decoration: none;
+	margin: 10px;
+}
+
+.social ul{
+    display: inline-block;
+
+}
+
+.social{
+position: relative;
+  z-index: 2000;
+  height: 150px;
+  padding-top: 0px;
+}
+.social >ul li{
+position: relative;
+text-align: center;
+padding: 2% auto;
+display:block;
+color: #fff;
+font-size: 30px;
+height: 60px;
+width: 60px;
+background: #03738C;
+line-height: 60px;
+border-radius: 50%;
+margin: 0 5px 15px;
+cursor: pointer;
+transition: .5s;
+top: -30px;
+right: 50px;
+}
+.social> ul li:before{
+content: '';
+top: 0;
+left: 0;
+height: inherit;
+width: inherit;
+/* background: #d35400; */
+border-radius: 50%;
+transform: scale(.9);
+z-index: -1;
+transition: .5s;
+}
+.social>ul li:nth-child(1):before{
+background: #4267B2;
+}
+.social>ul li:nth-child(2):before{
+background: #E1306C;
+
+}
+.social>ul li:nth-child(3):before{
+background: #1DA1F2;
+}
+.social>ul li:hover:before{
+filter: blur(3px);
+transform: scale(1.2);
+/* box-shadow: 0 0 15px #d35400; */
+}
+.social>ul li:nth-child(1):hover:before{
+box-shadow: 0 0 15px #4267B2;
+}
+.social>ul li:nth-child(2):hover:before{
+box-shadow: 0 0 15px #E1306C;
+}
+.social>ul li:nth-child(3):hover:before{
+box-shadow: 0 0 15px #1DA1F2;
+}
+
+.social>ul li:nth-child(1):hover{
+color: #0b2863a4;
+box-shadow: 0 0 15px #4267B2;
+text-shadow: 0 0 15px #4267B2;
+}
+.social>ul li:nth-child(2):hover{
+color: #e23670;
+box-shadow: 0 0 15px #E1306C;
+text-shadow: 0 0 15px #E1306C;
+}
+.social>ul li:nth-child(3):hover{
+color: #26a4f2;
+box-shadow: 0 0 15px #1DA1F2;
+text-shadow: 0 0 15px #1DA1F2;
+}
+.social>ul li a{
+  display: inline-block;
+  color: #011C26;
+  position: absolute;
+  margin-left: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: italic;
+  font-size: 20px;
+  text-decoration: none;
+}
+.social>ul li a:hover{
+text-decoration: underline;
+background-color: transparent;
+}
+@media screen and (max-width: 1024px){
+    .izquierda{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+        margin-right: 10%;
+    }
+    div.img-box{
+        width: 200px;
+        height:200px;
+    }
+    div.img-box img{
+        width: 100%;
+        height: 100%;
+        padding:10px;
+        border-radius:50%;
+        background-color: #ed7a00;
+    }
+}
+@media screen and (max-width: 965px){
+	.social ul{
+       display: flex;
+       flex-direction: row;
+       margin-top: 50px;
+    
+    }
+	.red .xd .no{
+		display: none;
+	}
+	div.textos2{
+	padding-right: 20px;
+	border-right:  2px solid transparent;
+}
+	div.redes{
+		right: 0;
+	}
+	div.img-box{
+	width: 150px;
+	height:150px;
+}
+div.img-box img{
+	width: 100%;
+	height: 100%;
+	padding:5px;
+	border-radius:50%;
+	background-color: transparent;
+}
+div.izquierda{
+	flex-direction: column;
+}
+
+}
+
+@media screen and (max-width: 500px){
+	.red{
+	text-decoration: none;
+	margin: 5px;
+    margin-left: 10%;
+}
+.red i{ 
+	border-radius: 50%;
+	background-color: #03738C;
+	color: white;
+	text-align: center;
+	font-size:100%;
+	width: auto;
+	height: auto;
+}
+footer .textos2{
+	text-align: center;
+}
+div.img-box{
+	width: 100px;
+	height:100px;
+}
+.izquierda{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-evenly;
+	width: 60%;
+}
+
+}
+@media screen and (max-width: 500px){
+    div.img-box{
+        width: 80px;
+        height:80px;
+        top: 0;
+    }
+}
